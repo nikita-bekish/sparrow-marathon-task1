@@ -13,6 +13,7 @@
 		B1D0B7142B6B7B9E00682A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D0B7122B6B7B9E00682A94 /* Main.storyboard */; };
 		B1D0B7162B6B7B9F00682A94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D0B7152B6B7B9F00682A94 /* Assets.xcassets */; };
 		B1D0B7192B6B7B9F00682A94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D0B7172B6B7B9F00682A94 /* LaunchScreen.storyboard */; };
+		B1D0B7222B6B98B800682A94 /* RoundShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D0B7212B6B98B800682A94 /* RoundShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B1D0B7152B6B7B9F00682A94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D0B7182B6B7B9F00682A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1D0B71A2B6B7B9F00682A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D0B7212B6B98B800682A94 /* RoundShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B1D0B70B2B6B7B9E00682A94 /* sparrow-marathon-task1 */ = {
 			isa = PBXGroup;
 			children = (
+				B1D0B7202B6B989600682A94 /* Components */,
 				B1D0B70C2B6B7B9E00682A94 /* AppDelegate.swift */,
 				B1D0B70E2B6B7B9E00682A94 /* SceneDelegate.swift */,
 				B1D0B7102B6B7B9E00682A94 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				B1D0B71A2B6B7B9F00682A94 /* Info.plist */,
 			);
 			path = "sparrow-marathon-task1";
+			sourceTree = "<group>";
+		};
+		B1D0B7202B6B989600682A94 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1D0B7212B6B98B800682A94 /* RoundShadowView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1D0B7112B6B7B9E00682A94 /* ViewController.swift in Sources */,
+				B1D0B7222B6B98B800682A94 /* RoundShadowView.swift in Sources */,
 				B1D0B70D2B6B7B9E00682A94 /* AppDelegate.swift in Sources */,
 				B1D0B70F2B6B7B9E00682A94 /* SceneDelegate.swift in Sources */,
 			);
